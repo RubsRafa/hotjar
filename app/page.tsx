@@ -1,12 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import { hotjar } from 'react-hotjar'
-import { useEffect } from 'react'
 
 export default function Home() {
-  useEffect(() => {
-    hotjar.initialize(Number(process.env.NEXT_PUBLIC_HJID) ?? 0, Number(process.env.NEXT_PUBLIC_HJSV) ?? 0)
-  }, [])
   return (
     <main className={styles.main}>
       <div className={styles.description}>
