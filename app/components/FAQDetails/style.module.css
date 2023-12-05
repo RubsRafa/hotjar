@@ -1,0 +1,46 @@
+.p {
+    margin-bottom: 1.5rem;
+}
+
+.p_numero {
+    margin-left: 1.25rem;
+    text-indent: -1rem;
+}
+
+.p_hifen {
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+.p:last-child,
+.p_numero:last-child,
+.p_hifen:last-child {
+    margin-bottom: 0;
+}
+
+.p_no_margin {
+    /* background-color: teal; */
+    margin-bottom: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.accordion_details {
+    padding-inline: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.accordion_details>div {
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 48em) {
+    .accordion_details {
+        padding-inline: 1rem;
+    }
+}

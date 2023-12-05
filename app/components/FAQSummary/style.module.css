@@ -1,0 +1,37 @@
+.remove_border>* {
+    border-top: none;
+    border-top: transparent;
+}
+
+.box {
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    /* border-bottom: 1px solid var(--neutral-gray-light); */
+}
+
+.accordion_summary {
+    padding-inline: 0;
+    padding-block: 1rem;
+}
+
+.accordion_summary>div {
+    margin: 0;
+}
+
+.question_box {
+    min-width: fit-content;
+    margin-right: 3.5rem;
+}
+
+.expand_icon {
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+}
+
+@media screen and (min-width: 48em) {
+    .accordion_summary {
+        padding-inline: 1rem;
+        padding-block: 1rem;
+    }
+}
